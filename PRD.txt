@@ -1,9 +1,9 @@
 Product Requirements Discovery
-Project Title: Campus Printing Management System
-Repository URL: https://github.com/jadecayangho/campus_printing_management
+Project Title: CampusInk: A Unified Campus Printing Management Platform
+Repository URL: https://github.com/jadecayangho/campus_ink
 
 1. Project Overview
-The Campus Printing Management System is a system that helps a campus printing shop. This system lets the shop owner keep track 
+The CampusInk is a system that helps a campus printing shop. This system lets the shop owner keep track 
 of printing orders on the computer rather than writing them down in a paper. The System will calculate the cost of each printing order automatically. 
 It does this by using the prices that are already set for each type of printing. The System also lets the owner look at all 
 the printing orders get the details of each order and manage them. Meanwhile, the keepers logs new sales that is done in the printing shop. Clients can also create printing orders through the system, which will automatically compute the printing cost based on the selected print type and number of pages. This helps the owner keep track of everything accurately and avoid mistakes, with the Printing Management System.

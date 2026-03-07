@@ -1,4 +1,4 @@
-# Campus Printing Management System
+# CampusInk: A Unified Campus Printing Management Platform
 
 A web-based system to manage printing orders for a campus printing shop. The system automatically calculates costs based on print type and automatically stores orders.
 

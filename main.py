@@ -4,7 +4,7 @@ from routes import router as orders_router
 from pricing import get_all_prices
 
 app = FastAPI(
-    title="Campus Printing Management System",
+    title="CampusInk: A Unified Campus Printing Management Platform",
     description="A system to manage printing orders and costs for a campus printing shop",
     version="1.0.0"
 )
@@ -24,7 +24,7 @@ app.include_router(orders_router)
 def read_root():
     """Welcome endpoint"""
     return {
-        "message": "Welcome to Campus Printing Management System",
+        "message": "Welcome to CampusInk",
         "version": "1.0.0",
         "endpoints": {
             "orders": "/api/orders",
@@ -45,7 +45,7 @@ def health_check():
     """Health check endpoint"""
     return {
         "status": "healthy",
-        "service": "Campus Printing Management System"
+        "service": "CampusInk: A Unified Campus Printing Management Platform"
     }
 
 
