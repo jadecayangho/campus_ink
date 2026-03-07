@@ -1,0 +1,37 @@
+Product Requirements Discovery
+Title: Campus Printing Management System
+
+1. Project Overview
+The Campus Printing Management System is a system that helps a campus printing shop. This system lets the shop owner keep track 
+of printing orders on the computer rather than writing them down in a paper. The System will calculate the cost of each printing order automatically. 
+It does this by using the prices that are already set for each type of printing. The System also lets the owner look at all 
+the printing orders get the details of each order and manage them. Meanwhile, the keepers logs new sales that is done in the printing shop. Clients can also create printing orders through the system, which will automatically compute the printing cost based on the selected print type and number of pages. This helps the owner keep track of everything accurately and avoid mistakes, with the Printing Management System.
+Printing Prices:
+ - Black & White: PHP 2.00/page
+ - Colored: PHP 5.00/page
+ - Photo Paper: PHP 20.00/page
+
+2. Problem Statement
+The client currently records orders manually, which leads to computation errors, lost records, and duplicated orders. 
+Manual computation of printing costs increases the risk of incorrect pricing.
+There is no centralized system to reliably store and retrieve order information.
+
+3. Objectives
+- Automatically compute total printing costs base on printing prices.
+- Store order logs in a local storage.
+- Allow clients to create printing orders through the system.
+- Allow viewing of all orders.
+- Allow retrieval of specific order information.
+- Prevent lost or duplicated orders.
+- Create user roles and their access routes.
+- Develop a backend API for managing printing orders.
+
+4. Users Primary
+- Campus Printing Shop Owner
+Act as the administrator of the system, the owner can access all the routes of the system, generate reports, and grant or revoke
+access of the shop keepers.
+- Assigned Printing Shop Keeper/Staff
+Act as the everyday user of the system, the keepers will be the one to logs all sales in the printing shop. It can't have administrative
+access.
+Client
+- The customer of the printing shop. The client can create printing orders by specifying the print type and number of pages. The system will automatically compute the printing cost for the order.
