@@ -1,5 +1,6 @@
 Product Requirements Discovery
-Title: Campus Printing Management System
+Project Title: Campus Printing Management System
+Repository URL: https://github.com/jadecayangho/campus_printing_management
 
 1. Project Overview
 The Campus Printing Management System is a system that helps a campus printing shop. This system lets the shop owner keep track 
