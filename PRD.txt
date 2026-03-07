@@ -34,5 +34,5 @@ access of the shop keepers.
 - Assigned Printing Shop Keeper/Staff
 Act as the everyday user of the system, the keepers will be the one to logs all sales in the printing shop. It can't have administrative
 access.
-Client
-- The customer of the printing shop. The client can create printing orders by specifying the print type and number of pages. The system will automatically compute the printing cost for the order.
+- Client
+The customer of the printing shop. The client can create printing orders by specifying the print type and number of pages. The system will automatically compute the printing cost for the order.
