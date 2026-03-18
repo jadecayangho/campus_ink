@@ -79,7 +79,6 @@ class OrderDatabase:
 
         for order_data in orders_data:
             if order_data["id"] == order_id:
-                # Update fields if provided
                 if order_update.print_type is not None:
                     order_data["print_type"] = order_update.print_type
                 if order_update.num_pages is not None:
@@ -91,7 +90,6 @@ class OrderDatabase:
                 if order_update.notes is not None:
                     order_data["notes"] = order_update.notes
 
-                # Recalculate cost if print_type or num_pages changed
                 if order_update.print_type is not None or order_update.num_pages is not None:
                     print_type = order_data["print_type"]
                     num_pages = order_data["num_pages"]
